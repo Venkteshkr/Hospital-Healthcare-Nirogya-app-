@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Verify_number">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210sp"
+        android:textSize="25sp"
+        android:textColor="#03A9F4"
+        android:textAlignment="center"
+        android:text="Enter verification code">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It will takes approx 60 sec...!"
+        android:textAlignment="center"
+        android:textColor="#E9BD1E"
+        android:layout_marginTop="24sp">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/edt_entercode"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:hint="Enter code"
+        android:textSize="20sp"
+
+        android:textAlignment="center">
+
+    </EditText>
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37sp"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:background="@drawable/rounde_button"
+        android:text="Sign-in">
+
+    </Button>
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progress_br"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="17sp"></ProgressBar>
+
+</LinearLayout>

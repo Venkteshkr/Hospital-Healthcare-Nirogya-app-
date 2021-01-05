@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hospitalhealthcare">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Book_doctor"></activity>
+        <activity android:name=".Staff_access" />
+        <activity android:name=".Doctor_access" />
+        <activity android:name=".Continue_email" />
+        <activity android:name=".Hospital_details" />
+        <activity android:name=".Doctor_details" />
+        <activity android:name=".Patient_report" />
+        <activity android:name=".Infection" />
+        <activity android:name=".Allergies" />
+        <activity android:name=".Past_record" />
+        <activity android:name=".Contact_act" />
+        <activity android:name=".Address_book" />
+        <activity android:name=".Name_activity" />
+        <activity android:name=".Gridview_activity" />
+        <activity android:name=".Gridview_healthcare" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".Navigation_main"
+            android:label="@string/title_activity_navigation_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".User_signin" />
+        <activity android:name=".Verify_number" />
+     <activity android:name=".Splash"/>
+        <activity android:name=".Account_holder" />
+        <activity android:name=".Registration_form" />
+        <activity android:name=".Login_form" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splace_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

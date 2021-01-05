@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F1F8"
+    android:orientation="vertical"
+
+    tools:context=".Account_holder">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/imagesss123"
+        >
+
+    </ImageView>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255sp"
+        android:layout_marginLeft="12sp"
+
+        android:text="Verify your phone number"
+        android:textSize="33dp"
+        android:fontFamily="sans-serif-condensed">
+
+    </TextView>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#9A9AA3"
+        android:layout_marginTop="320dp"
+
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/edt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60sp"
+            android:ems="10"
+            android:textColor="#FF9800"
+            android:hint="Enter phone number" >
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/text_error"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="44sp"
+        android:layout_marginTop="382sp"
+        android:layout_marginRight="47sp"
+        android:text=""
+        android:textColor="#F43636"
+        android:textSize="15sp">
+
+    </TextView>
+    <Button
+        android:id="@+id/btn_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:textSize="30dp"
+        android:text="Continue"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15sp"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:background="@drawable/rounde_button"
+        >
+
+    </Button>
+
+
+</RelativeLayout>

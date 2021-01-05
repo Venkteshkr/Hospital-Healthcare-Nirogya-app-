@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Hospital Healthcare</string>
+    <string name="hi_there_this_page_is_your_medical_healthcare_sign_in_page_here_you_have_now_permission_to_access_the_hospital_documentation_and_you_can_also_able_to_see_our_hospital_daily_report_according_to_your_access">Hi! there,this page is your medical healthcare sign in page ,here you have now permission to access the hospital documentation and you can also able to see our hospital daily report according to your access.</string>
+
+    <string-array name="names">
+        <item>Select_Login_Type</item>
+        <item>Doctor_Login</item>
+        <item>Patient_Login</item>
+        <item>Staff_Login</item>
+        <item>Hospital_head_Login</item>
+    </string-array>
+    <string-array name="names2">
+        <item>select doctor</item>
+        <item>Dr. arvind kumar       (dentist)</item>
+        <item>Dr. rahul kumar        (Physician)</item>
+        <item>Dr. Himanshu Mishra    (Dermatologists)</item>
+        <item>Dr. Ipshita sinha      (gynecologist)</item>
+        <item>Dr. Abhishek raut      (Specialist)</item>
+        <item>Dr. Ashok kumar        (Physician)</item>
+        <item>Dr. Shanti Roy         (Neurologist)</item>
+    </string-array>
+
+    <string name="title_activity_navigation_main">Navigation_main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Login</string>
+    <string name="menu_slideshow">click to call</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_policy">Privacy and policies</string>
+    <string name="menu_appointment2">book appointment</string>
+    <string name="menu_MyPrescription">Download hospital detail</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_navigation2_main_rep">navigation2_main_rep</string>
+
+    <string name="can_i_fuck_you">can i fuck you</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

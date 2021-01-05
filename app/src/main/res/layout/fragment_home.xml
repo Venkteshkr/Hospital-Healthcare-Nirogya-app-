@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#141413"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="0dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:background="@drawable/dimag2"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="center"
+            android:textColor="#ffff"
+            android:text="Welcome to Nirogya healthcare application"></TextView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:textSize="30sp"
+        android:layout_marginLeft="2dp"
+        android:textColor="#D8C207"
+        android:layout_marginBottom="10sp"
+        android:layout_gravity="center"
+        android:text="It all started with a vision."></TextView>
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#FDF8F8"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+//70C0FC
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#60B4F7"
+        android:id="@+id/linearlayout_red"
+        android:orientation="vertical"
+        android:layout_marginTop="30sp"
+        android:layout_height="1200sp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#ffff"
+            android:text="We've made quality healthcare that is accessible to all">
+
+        </TextView>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_marginTop="60dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/imghome">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:textColor="#ffff"
+
+            android:text="Where the hospital comes to you"
+            android:textSize="25sp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:textColor="#ffff"
+            android:text="This app gives patients access to the best doctors and the highest quality of healthcare from the comfort of their homes."
+            android:textSize="17sp">
+
+
+        </TextView>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_marginTop="60dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/clipart">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:textColor="#ffff"
+            android:text="Where healthcare is affordable"
+            android:textSize="25sp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:textColor="#ffff"
+            android:text="Apart from our financial aid and insurance tie ups.we are empanelled under various government schemes,providing beneficiaries with the same quality of care,irrespective of their social status."
+            android:textSize="17sp">
+
+        </TextView>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_marginTop="60dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/eritrescope">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:textColor="#ffff"
+            android:text="Where the healthcare goes far and wide"
+            android:textSize="25sp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:textColor="#ffff"
+            android:text="Our flying doctors have performed over well and we meet the flying doctors they were came from other contries like singapore,uk,usa etc."
+            android:textSize="17sp">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="-70sp"
+        android:layout_marginBottom="30sp"
+        android:orientation="vertical"
+        android:layout_marginRight="20sp"
+        android:background="#F1F1F1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="42dp"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:textColor="#1D1D1D"
+            android:text="Today,we're still evolving">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30sp"
+            android:text="we all are evolving in to give personal care with experts doctor's and we are still evolving to better for you,and also we are commited to the advancement in treatment through this app.">
+
+        </TextView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="policies and forms"
+        android:textColor="#D8C207"
+        android:layout_marginRight="50sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="30sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/about_us_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D8C207"
+        android:text="About us"
+        android:layout_marginRight="50sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="30sp"
+        android:textSize="15sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D8C207"
+        android:text="Contact us"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="50sp"
+        android:layout_marginLeft="30sp"
+        android:textSize="15sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D8C207"
+        android:layout_marginRight="50sp"
+        android:text="Check update"
+        android:layout_marginLeft="30sp"
+        android:textSize="15sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D8C207"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="50sp"
+        android:text="Help"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D8C207"
+        android:text="Notice"
+        android:layout_marginRight="50sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="30sp"
+        android:textSize="15sp">
+
+    </TextView>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textColor="#A39308"
+       android:layout_marginTop="8dp"
+       android:gravity="center"
+       android:textSize="22dp"
+       android:layout_marginBottom="5dp"
+       android:text="Designed by VK">
+
+   </TextView>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

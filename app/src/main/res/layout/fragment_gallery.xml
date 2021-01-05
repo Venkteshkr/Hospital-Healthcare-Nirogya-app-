@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/saffron2"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="8dp"
+        android:textColor="#FFF7F7"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+
+        android:text="Have an account?"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:id="@+id/text__login">
+
+    </TextView>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:textColor="#F76435"
+        android:textAllCaps="false"
+        android:text="Login"
+        android:textSize="25sp"
+        ></Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:text="New user or not registered?"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:id="@+id/text_register1">
+
+    </TextView>
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:textSize="25sp"
+        android:textColor="#ffff"
+        android:text="register here"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounde_button"
+        >
+
+    </Button>
+</LinearLayout>

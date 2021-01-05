@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Gridview_healthcare"
+    >
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal"
+            android:textSize="20sp"
+            android:layout_marginTop="24sp"
+            android:layout_marginRight="-60sp"
+
+            android:layout_marginLeft="20sp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health profile"
+            android:textSize="20sp"
+            android:layout_marginTop="95sp"
+            android:layout_marginRight="-70dp"
+
+            android:layout_marginLeft="-20sp">
+
+</TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clinical info"
+            android:textSize="20sp"
+            android:layout_marginTop="165dp"
+
+            android:layout_marginRight="-60sp"
+
+            android:layout_marginLeft="-52sp"></TextView>
+        <GridView
+            android:id="@+id/grid_v"
+            android:layout_width="594dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="90dp"
+            android:horizontalSpacing="8dp"
+
+            android:verticalSpacing="8dp"
+            android:padding="6dp"
+            android:background="#F7DA85"
+            android:gravity="center"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"></GridView>
+
+
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

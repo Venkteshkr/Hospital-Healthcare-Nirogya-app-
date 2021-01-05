@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+android:background="@drawable/lightss"
+    android:touchscreenBlocksFocus="true"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:layout_marginTop="48dp"
+        android:textColor="#EBE6C1"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="298dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220sp"
+        android:text="9110978726 "
+        android:background="#ffff"
+        android:textSize="30sp"
+        android:gravity="center">
+
+    </TextView>
+    <Button
+        android:layout_width="309sp"
+        android:id="@+id/btn_call"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350sp"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:text="make a call"
+        android:background="@drawable/rounde_button">
+    </Button>
+    <Button
+        android:layout_width="309sp"
+        android:id="@+id/btn_massage"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450sp"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:text="send message"
+        android:background="@drawable/rounde_button">
+    </Button>
+
+</RelativeLayout>

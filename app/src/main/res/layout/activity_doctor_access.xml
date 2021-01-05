@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Doctor_access">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="0sp"
+
+            android:layout_marginTop="0sp"
+            android:layout_height="1000dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14sp"
+                    android:layout_marginRight="-120dp"
+                    android:layout_marginTop="54sp"
+                    android:textSize="19sp"
+                    android:text="Personal"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Health profile"
+                    android:textSize="19dp"
+                    android:layout_marginRight="-110sp"
+                    android:layout_marginTop="189sp"
+                    android:layout_marginLeft="45sp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clinical info"
+                    android:textSize="19dp"
+                    android:layout_marginRight="-110sp"
+                    android:layout_marginTop="321sp"
+                    android:layout_marginLeft="0sp">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="561dp"
+                    android:layout_height="800sp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#F7DA85"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button_l112"
+                            android:layout_width="150dp"
+                            android:layout_height="85dp"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginTop="30sp"
+                            android:background="@drawable/gride_button"
+                            android:text="name"
+                            android:textAllCaps="false"
+                            android:textSize="20sp">
+
+                        </Button>
+
+                        <Button
+                            android:id="@+id/button_l23"
+                            android:layout_width="150dp"
+                            android:layout_height="85dp"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginTop="30sp"
+                            android:background="@drawable/gride_button"
+                            android:text="Adress Book"
+                            android:textAllCaps="false"
+                            android:textSize="20sp">
+
+                        </Button>
+
+                        <Button
+                            android:id="@+id/button_l34"
+                            android:layout_width="150dp"
+                            android:layout_height="85dp"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginTop="30sp"
+                            android:background="@drawable/gride_button"
+                            android:text="Contact"
+                            android:textAllCaps="false"
+                            android:textSize="20sp">
+
+                        </Button>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button_l145"
+                            android:layout_width="150dp"
+                            android:layout_height="85dp"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginTop="30sp"
+                            android:background="@drawable/gride_button"
+                            android:text="Past recovery"
+                            android:textAllCaps="false"
+                            android:textSize="20sp">
+
+                        </Button>
+
+                        <Button
+                            android:id="@+id/button_l56"
+                            android:layout_width="150dp"
+                            android:layout_height="85dp"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginTop="30sp"
+                            android:background="@drawable/gride_button"
+                            android:text="allergies"
+                            android:textAllCaps="false"
+                            android:textSize="20sp">
+
+                        </Button>
+
+                        <Button
+                            android:id="@+id/button_l67"
+                            android:layout_width="150dp"
+                            android:layout_height="85dp"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginTop="30sp"
+                            android:background="@drawable/gride_button"
+                            android:text="Infection"
+                            android:textAllCaps="false"
+                            android:textSize="20sp">
+
+                        </Button>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button_l78"
+                            android:layout_width="150dp"
+                            android:layout_height="85dp"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginTop="30sp"
+                            android:background="@drawable/gride_button"
+                            android:text="Patient report"
+                            android:textAllCaps="false"
+                            android:textSize="20sp">
+
+                        </Button>
+
+                        <Button
+                            android:id="@+id/button_l89"
+                            android:layout_width="150dp"
+                            android:layout_height="85dp"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginTop="30sp"
+                            android:background="@drawable/gride_button"
+                            android:text="Doctor details"
+                            android:textAllCaps="false"
+                            android:textSize="20sp">
+
+                        </Button>
+
+                        <Button
+                            android:id="@+id/button_l910"
+                            android:layout_width="150dp"
+                            android:layout_height="85dp"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginTop="30sp"
+                            android:background="@drawable/gride_button"
+                            android:text="Hospital details"
+                            android:textAllCaps="false"
+                            android:textSize="20sp">
+
+                        </Button>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>
